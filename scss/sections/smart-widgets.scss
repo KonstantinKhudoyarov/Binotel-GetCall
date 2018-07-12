@@ -1,0 +1,55 @@
+.smart-widgets {
+  background: url("../images/background/getcall-bg-1.jpg") no-repeat center bottom;
+  background-size: cover;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/1x2_tariffs.png") repeat;
+  }
+
+  .container {
+    @extend %clearfix;
+    position: relative;
+  }
+}
+
+.smart-widgets__screen {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+}
+
+.smart-widgets__screen-img {
+  display: block;
+}
+
+.smart-widgets__desc {
+  float: right;
+  color: #fff;
+  padding: 130px 120px 130px 0;
+}
+
+.smart-widgets__logo {
+  width: 265px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.smart-widgets__desc-img {
+  max-width: 100%;
+}
+
+.smart-widgets__title {
+  font-size: 22px;
+}
+
+.smart-widgets__title_sub {
+  font-size: 20px;
+  color: #fff;
+  opacity: .5;
+}

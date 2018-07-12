@@ -1,0 +1,30 @@
+.benefit {
+  padding: 80px 0 0 0;
+}
+
+.benefit__title {
+  font-size: 44px;
+  line-height: 1.181818;
+  margin-bottom: 40px;
+}
+
+.benefit__accent {
+  font-weight: 600;
+}
+
+.benefit__item {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.235294;
+  margin-bottom: 14px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: #aa006a;
+    margin-right: 20px;
+  }
+
+}

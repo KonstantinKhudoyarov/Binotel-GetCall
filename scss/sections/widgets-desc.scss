@@ -1,0 +1,114 @@
+.widgets-desc {
+  padding: 110px 0 85px 0;
+
+  .container {
+    @extend %clearfix;
+  }
+}
+
+.widgets-desc__callback {
+  width: 44%;
+  float: left;
+}
+
+.widgets-desc__title {
+  font-size: 27px;
+}
+
+.widgets-desc__subtitle {
+  font-size: 16px;
+  opacity: .5;
+  margin-bottom: 35px;
+}
+
+.widgets-desc__title-accent {
+  font-weight: 600;
+}
+
+.widgets-desc__pic {
+  width: 172px;
+  position: relative;
+  margin-bottom: 33px;
+}
+
+.widgets-desc__img {
+  max-width: 100%;
+}
+
+.widgets-desc__pic-title {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.widgets-desc__desc {
+  font-size: 15px;
+}
+
+.widgets-desc__one-click {
+  width: 44%;
+  float: right;
+}
+
+//card
+
+.card {
+  width: 88%;
+  background-color: #f2f2f5;
+  padding: 22px 19px 25px 37px;
+  margin-bottom: 32px;
+  @extend %clearfix;
+}
+
+.card__pic {
+  float: left;
+}
+
+.card__img {
+  display: block;
+}
+
+.card__main {
+  float: right;
+}
+
+.card__pseudo-desc {
+  width: 72px;
+  height: 8px;
+  background-color: #d5d5db;
+  margin-bottom: 4px;
+}
+
+.card__pseudo-desc_shorter {
+  width: 52px;
+}
+
+.card__price-num {
+  font-size: 20px;
+  color: #c7c7ce;
+}
+
+.card__price-currency {
+  font-size: 15px;
+  color: #c7c7ce;
+}
+
+.card__btns {
+  font-size: 0;
+}
+
+.card__btn {
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 11px;
+  color: #fff;
+  background-color: #c9c9cc;
+  border: none;
+}
+
+.card__btn_accent {
+  background-color: #a70567;
+  margin-right: 1px;
+}

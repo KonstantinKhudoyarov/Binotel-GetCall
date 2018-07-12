@@ -1,0 +1,172 @@
+.call-you {
+  background-color: #f2f2f5;
+  padding-top: 52px;
+}
+
+.call-you__title {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 50px;
+}
+
+.call-you__accent {
+  font-weight: 600;
+}
+
+.call-you__main {
+  box-shadow: 1px 0 11px rgba(0,0,0,0.12);
+  position: relative;
+}
+
+.call-you__img {
+  display: block;
+  max-width: 100%;
+}
+
+.call-you__content {
+  background: url('../images/background/getcall-widget-bg.png') no-repeat top center;
+  overflow: hidden;
+}
+
+.call-you__passive-form {
+  background-color: #ededf0;
+  width: 59.0909%;
+  margin: 87px auto 99px;
+  padding: 90px 53px 65px 125px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+
+.call-you__passive-form-title {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.call-you__passive-form-accent {
+  font-weight: 600;
+}
+
+.form {
+  font-size: 0;
+}
+
+.form__input {
+  width: 200px;
+  height: 40px;
+  padding: 0 14px;
+  font-size: 14px;
+  color: #c9c9c9;
+  outline: none;
+  border: none;
+  border-top: 1px solid #d0d0cf;
+  vertical-align: top;
+}
+
+.form__btn {
+  width: 180px;
+  height: 40px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #b01a69;
+  border: none;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.form__sec {
+  font-size: 13px;
+  color: #acacac;
+}
+
+.form__accent {
+  font-size: 19px;
+  color: #000;
+  padding: 0 5px;
+}
+
+.call-you__axample, .call-you__operators, .call-you__orders {
+  font-size: 9px;
+  color: #b2b2b4;
+}
+
+.call-you__axample {
+  margin: 5px 0 25px 0;
+}
+
+.call-you__operators_margined {
+  margin-bottom: 5px;
+}
+
+.call-you__active-form {
+  background-color: #ededf0;
+  padding: 15px 0 10px 0;
+  text-align: center;
+}
+
+.call-you__active-form-title {
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+  line-height: 1;
+}
+
+.call-you__active-form-accent {
+  font-size: 21px;
+}
+
+.call-you__active-form-form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.call-you__active-form-desc {
+  line-height: 1;
+  margin-top: 3px;
+}
+
+.call-you__operators_stroke, .call-you__orders_stroke {
+  display: inline-block;
+}
+
+.call-you__operators_stroke {
+  margin-right: 10px;
+}
+
+.call-you__widget {
+  width: 129px;
+  position: absolute;
+  bottom: 110px;
+  left: 30px;
+}
+
+.call-you__widget-img {
+  max-width: 100%;
+}
+
+.call-you__widget-desc {
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.call-you__footnote {
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+.call-you__footnote-square {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-color: #aa006a;
+  margin-right: 8px;
+}
+
+.call-you__footnote-desc {
+  display: inline-block;
+  font-size: 13px;
+  color: #666666;
+}

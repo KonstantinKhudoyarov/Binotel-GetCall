@@ -1,0 +1,71 @@
+.advantages {
+  background: url('../images/background/getcall-bg-2.jpg') no-repeat top center;
+  background-size: cover;
+  padding: 85px 0 70px 0;
+}
+
+.advantages_resized {
+  padding: 150px 0 170px 0;
+}
+
+.advantages__title {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 90px;
+}
+
+.advantages__accent {
+  font-weight: 600;
+}
+
+.advantages__list {
+  text-align: justify;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.advantages__item {
+  width: 17%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.advantages__pic {
+  width: 75px;
+  margin-bottom: 10px;
+}
+
+.advantages__img {
+  max-width: 100%;
+}
+
+.advantages__num {
+  color: #fff;
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.advantages__sup {
+  font-size: 15px;
+  color: #d42585;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.advantages__sup_less-spaced {
+  margin: 10px -10px 0 0;
+
+}
+
+.advantages__text {
+  color: #fff;
+  font-size: 13px;
+  text-align: left;
+}

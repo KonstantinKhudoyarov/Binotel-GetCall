@@ -1,0 +1,38 @@
+.list__item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.list__item_non-spaced {
+  margin-bottom: 0;
+}
+
+.list__numeration {
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.list__text {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 1.529411;
+  padding-left: 25px;
+  font-weight: 300;
+}
+
+.list__text_more-spaced {
+  margin-bottom: 15px;
+}
+
+.list__link {
+  color: #555;
+
+  &:hover {
+    color: #005580;
+    text-decoration: underline;
+  }
+
+}

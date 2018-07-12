@@ -1,0 +1,30 @@
+.how-it-works {
+  padding: 100px 0 95px 0;
+
+  .container {
+    @extend %clearfix;
+  }
+
+}
+
+.how-it-works__desc {
+  width: 57.272727%;
+  float: left;
+}
+
+.how-it-works__title {
+  font-size: 44px;
+  line-height: 1.181818;
+  margin-bottom: 30px;
+}
+
+
+.how-it-works__visual {
+  width: 42.727273%;
+  float: left;
+  text-align: right;
+}
+
+.how-it-works__img {
+  max-width: 100%;
+}

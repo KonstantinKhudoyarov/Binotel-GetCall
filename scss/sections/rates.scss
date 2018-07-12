@@ -1,0 +1,86 @@
+.rate {
+  @extend %clearfix;
+  display: flex;
+}
+
+.rate__left {
+  width: 38%;
+  float: left;
+  text-align: right;
+  padding: 0 70px 0 0;
+  background-color: #ad1167;
+}
+
+.rate__name {
+  font-size: 15px;
+  line-height: 1.333333;
+  color: #fff;
+}
+
+.rate__name_s {
+  padding-top: 140px;
+}
+
+.rate__name_m {
+  padding-top: 55px;
+}
+
+.rate__faded {
+  opacity: .6;
+}
+
+.rate__right {
+  width: 62%;
+  float: right;
+  background-color: #f2f2f5;
+  padding: 50px 0 0 80px;
+  @extend %clearfix;
+}
+
+.rate__right_resized {
+  padding: 150px 0 0 80px;
+}
+
+.rate__title {
+  font-size: 30px;
+  line-height: 1.166666;
+  color: #a4a3a9;
+  margin-bottom: 50px;
+}
+
+.rate__value {
+  width: 220px;
+  float: left;
+}
+
+.rate__price {
+  font-size: 40px;
+  line-height: 1.075;
+}
+
+.rate__value-desc {
+  font-size: 15px;
+  line-height: 1.666666;
+  font-weight: 300;
+  color: #868589;
+  margin-bottom: 10px;
+}
+
+.rate__calls {
+  font-size: 13px;
+  line-height: 1.384615;
+  font-weight: 300;
+}
+
+.rate__accent {
+  font-weight: 600;
+}
+
+.rate__desc {
+  width: 55.157894%;
+  float: left;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.333333;
+  padding-left: 20px;
+}

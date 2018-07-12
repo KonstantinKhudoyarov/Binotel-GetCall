@@ -1,0 +1,42 @@
+.buttons_more-spaced {
+  padding-top: 50px;
+}
+
+.buttons_size-s {
+
+  .buttons__button {
+    font-size: 15px;
+    padding: 20px 0 17px 0;
+  }
+
+
+}
+
+.buttons__wrap {
+  font-size: 0;
+}
+
+.buttons__button {
+  font-size: 17px;
+  font-weight: 300;
+  width: 33.272727%;
+  display: inline-block;
+  text-align: center;
+  padding: 34px 0 28px 0;
+  color: #fff;
+  background-color: #a10d66;
+}
+
+.buttons__button_less-saturated {
+  background-color: #b01a69;
+}
+
+.buttons__button_saturated {
+  background-color: #91005c;
+}
+
+.buttons__time {
+  font-size: 11px;
+  opacity: .5;
+  margin-left: 10px;
+}

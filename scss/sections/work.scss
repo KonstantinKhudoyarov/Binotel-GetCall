@@ -1,0 +1,51 @@
+.work {
+  padding: 80px 0 95px 0;
+}
+
+.work__title {
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.work__accent {
+  font-weight: 600;
+}
+
+.work__wrap {
+  @extend %clearfix;
+}
+
+.work__wrap_spaced {
+  margin-bottom: 100px;
+}
+
+.work__left {
+  width: 45.4545%;
+  float: left;
+}
+
+.work__subtitle {
+  display: inline-block;
+  font-size: 17px;
+  color: #fff;
+  background-color: #aa006a;
+  padding: 12px 19px;
+  margin-bottom: 40px;
+}
+
+.work__footnote {
+  margin: 30px 0 0 20px;
+  font-weight: 300;
+}
+
+.work__right {
+  float: right;
+}
+
+.work__pic {
+  width: 533px;
+}
+
+.work__img {
+  max-width: 100%;
+}
